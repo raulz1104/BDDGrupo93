@@ -77,15 +77,15 @@ WSGI_APPLICATION = 'pagina_consultas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'newdjango',
-        'USER': 'famqueli',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
+        'NAME': 'grupo93e2',
+        'USER': 'grupo93',
+        'PASSWORD': 'grupo93',
+        'HOST': 'pavlov.ing.puc.cl',
         'PORT': '5432',
     }
 }
 
-
+#"grupo93e2", "grupo93", "grupo93", "pavlov.ing.puc.cl", 5432
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
