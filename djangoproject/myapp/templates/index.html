@@ -6,6 +6,23 @@
 </head>
 <body>
     <h1>Grupo 93 e2</h1>
-    <p>Aquí la estructura de las vistas, disculpen la falta de interfaz, espero mejorarlo para la próxima entrega</p>
+    <p>Estructura de las vistas, esperamos mejorar la 
+        interfaz para la próxima entrega</p>
+    
+    
+    <form action="/platos" method="get">
+        <input type="submit" value="Ver Platos">
+    </form>
+    <br>
+    <form action="/restorants/" method="get">
+        <input type="submit" value="Ver Restorants">
+    </form>
+    <br>
+    <form action="/restorants/find" method="get">
+        <label for="plato">Plato: </label>
+        <input type="text" name="plato" value="{{ plato }}">
+        <input type="submit" value="Buscar Restorants con el Plato">
+    </form>
+
 </body>
 </html>
